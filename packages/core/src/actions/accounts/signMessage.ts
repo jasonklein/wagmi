@@ -5,7 +5,7 @@ import { getWalletClient } from '../viem'
 
 export type SignMessageArgs = {
   /** Message to sign with wallet */
-  message: string
+    message: string | { raw: Hex | Uint8Array }
 }
 
 export type SignMessageResult = SignMessageReturnType
