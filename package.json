@@ -1,4 +1,6 @@
 {
+  "name": "jason-wagmi",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "anvil": "anvil --fork-url $ANVIL_FORK_URL --fork-block-number 16966590",
